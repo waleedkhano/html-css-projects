@@ -1,0 +1,658 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .topnav img{
+    width: 30px;
+} */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+    width: 50%;
+    height: 6vh;
+    color: white;
+    align-items:center;
+    background-color: #424242 ;
+    padding-left: 15%;
+    clip-path: polygon(0 0, 100% 0%, 96% 100%, 0 100%);
+}
+.gmail{
+    margin-right: 30px;
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.right-side{
+    margin-right: 15%;
+    align-items: center;
+}
+.right-side button{
+    color: #424242;
+    margin-right: 30px;
+    border: none;
+    background: none;
+}
+.right-side img{
+    margin: 10px 0 0 20px ;
+}
+.bottomnav{
+   width: 100%;
+   height: 15vh;
+   overflow: hidden;
+   padding-left: 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 0.8rem;
+}
+ul{
+    display: flex;
+    padding-right: 15%;
+}
+ul li{
+    margin-left: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn-head{
+    margin-left: 0px;
+}
+.btn-1{
+    color: white;
+    border: none;
+    width: 120px;
+    height: 6vh;
+    background-color: rgb(209, 3, 3);
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0 100%);
+}
+.btn-2{
+    color: white;
+    border: none;
+    width: 120px;
+    height: 6vh;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 6% 100%);
+}
+.image{
+    width: 100%;
+    height: 100v;
+}
+.main-page img{
+    max-width: 100%;
+    position:absolute;
+    z-index: -1;
+}
+.content-heading{
+    padding: 5% 0 0 15%;
+    font-size: 3rem;
+    color: white;
+}
+.content-heading p{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+}
+.content-heading button{
+    color: white;
+    width: 170px;
+    height: 6vh;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0 100%);
+    border: none;
+}
+.second-page{
+    padding: 10% 15% 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-text{
+   color: white;
+   font-size: 1.3rem;
+}
+.second-page img{
+    height: 20vh;
+}
+.right-text h1{
+    font-size: 1.8rem;
+    color: #424242;
+}
+.right-text button{
+    margin-top: 15px;
+    color: white;
+    width: 170px;
+    height: 6vh;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0 100%);
+    border: none;
+}
+.second-page-boxes{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 300px;
+    margin: auto;
+    grid-gap: 20px;
+    color: white;
+    padding-top: 80px;
+    position: relative;
+}
+.box-1{
+    padding: 25%;
+    background-image: url("./images/volunteer.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-2{
+    padding: 25%;
+    background-image: url("./images/donate.PNG");
+    height: 300px;
+    background-size: cover;
+}
+.box-3{
+    padding: 25%;
+    background-image: url("./images/fundraise.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.side-text{
+    width: 200px;
+    height: 40px;
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0 100%);
+    position: absolute;
+    bottom: 0; 
+    margin-left: -80px;
+}
+.third-page{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.third-heading h1{
+    font-size: 3.5rem;
+    margin: 10% 0 2% 0;
+}
+.third-heading p{
+    line-height: 1.5rem;
+}
+.third-page-boxes{
+    margin-top: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 400px;
+    line-height: 1.8rem;
+
+}
+.third-page-boxes h1{
+    margin: 20px ;
+}
+.btn{
+    color: white;
+    border: none;
+    width: 120px;
+    height: 6vh;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+    margin-left: -60px ;
+    position: absolute;
+    bottom: 0;
+}
+.two{
+    background-color: rgb(209, 3, 3);
+}
+.fourth-page{
+    width: 100%;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.fourth-page img{
+    max-width: 100%;
+    object-fit: cover;
+    position:absolute;
+    z-index: -1;
+}
+.fourth-heading{
+    color: white;
+    margin: 5% 0 0 15%;
+}
+.fourth-heading h1{
+    font-size: 4rem;
+    margin-bottom: 40px ;
+}
+.fourth-heading p{
+
+    line-height: 1.5rem;
+}
+.fourth-btn{
+    margin: 3% 0 0 15%;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 6vh;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+
+.left-content{
+    width: 35%;
+    height: 70vh;
+    background-color: rgb(209, 3, 3);
+    border-radius: 50%;
+    margin: 15% 0 10% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    float: left;
+}
+.right-content{
+    width: 55%;
+    height: 115vh;
+    background-color: #33caff;
+    color: white;
+    font-size: 1rem;
+    float: right;
+}
+.text-1{
+    width: 80%;
+    margin: auto;
+}
+.text-1 h1{
+    font-size: 10rem;
+}
+.text-1 p{
+    margin-top: -80px;
+    line-height: 30px;
+}
+.fifth-page{
+    width: 70%;
+    margin: auto;
+}
+.fifth-heading{
+    text-align: center;
+}
+.fifth-page h1{
+    font-size: 3rem;
+    margin: 30px; 
+}
+.fifth-heading p{
+    line-height: 30px;
+}
+.fifth-boxes{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+    grid-gap: 20px;  
+}
+.fifth-box{
+    background-color: #f5f5f5ec;
+
+}
+.fifth-img{
+    width: 350px;
+}
+.fifth-box h1{
+    font-size: 1.7rem;
+    margin: 15px 0;
+}
+.fifth-icon{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+span{
+    color: rgb(209, 3, 3);
+}
+.fifth-btn{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 6vh;
+    background-color:rgb(209, 3, 3);
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.chng-color{
+    background-color: #33caff;
+}
+
+.sixth-left-side{
+    width: 100%;
+    background-color: #f5f5f5ec;
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+}
+.six-head{
+    padding: 10% 0 3% 15% ;
+    font-size: 2.5rem;
+
+}
+.sixth-left-heading{
+    padding-left:15% ;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 5px;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+.sixth-right-heading{
+    width: 40%;
+    margin-top: -100px ;
+    float: right;
+    line-height: 30px;
+}
+.sixth-box{
+    height: 20vh;
+    padding: 20px ;
+    background-color: #33caff;
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+    position:relative;
+}
+.sixth-box p{
+    position:absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+.red{
+    background-color: rgb(209, 3, 3);
+}
+.yellow{
+    background-color: yellow;
+}
+.sixth-left-content{
+    width: 40%;
+    margin:100px 0 0 15%;
+    float: left;
+}
+.sixth-left-content h1{
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+.sixth-left-content p{
+    line-height: 30px;
+}
+.sixth-image{
+    width: 100%;
+}
+.sixth-image img{
+    max-width: 100%;
+}
+.sixth-form{
+    width: 40%;
+    background-color:rgb(209, 3, 3);
+    color: white;
+    height: auto;
+    float: right;   
+    padding: 5%;
+   
+}
+.six-form-heading h1{
+    font-size: 3rem;
+}
+input{
+    outline: none;
+    border: none;
+}
+.text{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    padding: 20px;
+
+}
+.comment{
+    margin: 30px 0 ;
+    width: 100%;
+    height: 20vh;
+    padding: 20px;
+}
+.sixth-btn{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 6vh;
+    background-color:yellow;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+
+.seventh{
+    width: 70%;
+    margin: auto;
+}
+.seventh-heading{
+    margin: 100px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.seventh-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-gap: 10px;
+}
+.seventh-boxes img{
+    max-width: 100%;
+}
+.seventh-text{
+    color: white;
+    width: 100%;
+    height: 20vh;
+    background-color:yellow;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+    padding: 10% 15%;
+    font-size: 0.8rem;
+}
+.blue{
+    background-color: #33caff;
+}
+.orange{
+    background-color: orangered;
+}
+.red{
+    background-color: rgb(209, 3, 3);
+}
+
+
+.seventh-bottom-image{
+    width: 100%;
+    margin-top: 100px;
+}
+.seventh-bottom-image img{
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.seventh-bottom-text{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.seventh-bottom-btn{
+    color: white;
+    border: none;
+    width: 200px;
+    height: 6vh;
+    background-color:rgb(209, 3, 3);
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.eight-heading{
+    margin: 200px 0 50px 0;
+    text-align: center;
+}
+.eight-head{
+    font-size: 3rem;
+}
+.purple{
+    color: purple;
+    margin-top: 10px;
+}
+.eight-left{
+    width: 30%;
+    margin-left: 15% ;
+    float: left;
+}
+.eight-left p{
+    line-height: 25px;
+}
+.eight-img{
+    width: 100%;
+    overflow: hidden;
+}
+.eight-img img{
+    max-width: 100%;
+}
+.eight-text-heading{
+    margin: 20px 0;
+}
+.eight-btn{
+    margin-top: 30px;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 6vh;
+    background-color:rgb(209, 3, 3);
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.eight-right{
+    width: 50%;
+    float: right;
+}
+.eight-box{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+.eight-box img{
+    width: 25%;
+    margin-right: 20px;
+}
+.brands-logo{
+    padding: 10% 25% ;
+}
+.eight-sides{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.eight-left-side{
+    position:absolute;
+    background-color: #33caff;
+    padding-top: 3%;
+    width: 50%;
+    height: 30vh;
+    clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+    float: left;
+}
+.eight-right-side{
+    background-color:rgb(209, 3, 3);
+    padding-top: 3%;
+    width: 55%;
+    height: 30vh;
+    position: relative;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    float: right;
+}
+.btn-eight{
+    margin-top: 30px;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 6vh;
+    background-color:yellow;
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.footer{
+    background-color: #242121;
+    color: white;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-heading h1{
+    margin-top: 100px;
+    font-size: 4rem;
+}
+.footer-heading p{
+    color: yellow;
+    margin-bottom: 50px;
+}
+.footer-heading input{
+    width: 35%;
+    height: 8vh;
+    padding: 30px;
+    background-color: #1a1919;
+}
+.footer-btn{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 8vh;
+    background-color:rgb(209, 3, 3);
+    clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.footer-bar{
+    width: 90%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+}
+.ulist{
+    display: block;
+}
+.ulist li{
+    margin: 30px 0 0 0px;
+
+}
+.ulist li a{
+    color: white;
+}
+.footer-icons{
+    display: flex;
+    margin-top: 20px;
+}
+.footer-icon{
+    width: 50px;
+    height: 8vh;
+    padding: 10px ;
+}
+.twitter{
+background-color: #33caff;
+clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+}
+.facebook{
+background-color:orangered;
+clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+}
+.pinterest{
+background-color: yellow;
+clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+}
+.intagram{
+background-color:rgb(209, 3, 3);
+clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+}
